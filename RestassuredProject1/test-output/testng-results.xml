@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-17T12:40:41 IST" name="Default suite" finished-at="2020-12-17T12:40:47 IST" duration-ms="6618">
+    <groups>
+    </groups>
+    <test started-at="2020-12-17T12:40:41 IST" name="Default test" finished-at="2020-12-17T12:40:47 IST" duration-ms="6618">
+      <class name="com.Restassured.TC003_GET_Request">
+        <test-method signature="getrequest()[pri:0, instance:com.Restassured.TC003_GET_Request@2b6faea6]" started-at="2020-12-17T12:40:41 IST" name="getrequest" finished-at="2020-12-17T12:40:47 IST" duration-ms="6497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getrequest -->
+      </class> <!-- com.Restassured.TC003_GET_Request -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
