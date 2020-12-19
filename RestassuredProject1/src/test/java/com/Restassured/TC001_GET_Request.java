@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.restassured.response.Response;
 public class TC001_GET_Request {
 
-	@Test 
+	//@Test 
 	public void getrequest() {
 		
 		
@@ -67,4 +67,4 @@ public class TC001_GET_Request {
 	}
 	
 	
-}
+
