@@ -38,23 +38,21 @@ public class DemoApi {
 	{
 		
 					HashMap data = new HashMap();
-					data.put("name", "sagar");
-					data.put("job", "latur");
-					data.put("id", "100");
 					
-					Response res=
+					data.put("email", "mahajan1020@gmail.com");
+					data.put("password", "sagar");
+					
+					//Response res=
 							given()
 								.contentType("applicati/json")
 									.body(data)
 									.when()
-										.post("https://reqres.in/api/users")
+										.post("https://reqres.in/api/register")
 										.then()
 										.statusCode(201)
-										.log().body()
-										.extract().response();
-					String jsonsting=res.asString();
-					System.out.println(jsonsting);
-					
+										.log().body();
+										//.extract().response();
+				
 					
 					
 						  
